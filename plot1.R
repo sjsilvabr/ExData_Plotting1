@@ -40,7 +40,7 @@ plot1 <- function(){
       png('./plot1.png', width=480, height=480, units='px')
       
       # Plot the data
-      hist(pcData2$Global_active_power, col='red', main='Global Active Power', 
+      hist(vDatasetData$Global_active_power, col='red', main='Global Active Power', 
            xlab='Global Active Power (kilowatts)')
       
       # Close graphics device
